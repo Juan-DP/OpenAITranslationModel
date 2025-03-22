@@ -1,8 +1,7 @@
 <?php
 class OpenAIClient {
-    private static $open_ai_key = config('OPEN_AI_KEY');
-    
-    private static $open_ai_url = config('OPEN_AI_URL'); //current version of the API endpoint
+    private static $open_ai_key = config('config.openAI.OPEN_AI_KEY');
+    private static $open_ai_url = config('config.openAI.OPEN_AI_URL'); //current version of the API endpoint
 
     /**
      * Function that fetches all the venues
