@@ -1,4 +1,39 @@
 <?php
+/**
+     * Retrieve configuration values from config.php.
+     *
+     * @param string|null $key The configuration key in dot notation (e.g., 'database.host')
+     * @param mixed $default The default value to return if the key is not found
+     * @return mixed The configuration value, or the entire config array if no key is provided
+     */
+    function config($key = null, $default = null)
+    {
+        static $config = null;
+
+        if ($config === null) {
+            $configFile = __DIR__ . '/config.php';
+            if (!file_exists($configFile)) {
+                throw new Exception("Configuration file not found: $configFile");
+            }
+            $config = include $configFile;
+        }
+
+        if ($key === null) {
+            return $config;
+        }
+
+        $keys = explode('.', $key);
+        $value = $config;
+
+        foreach ($keys as $part) {
+            if (!is_array($value) || !array_key_exists($part, $value)) {
+                return $default;
+            }
+            $value = $value[$part];
+        }
+
+        return $value;
+    }
 
 /**
  * Function that converts a json to a remote csv file
