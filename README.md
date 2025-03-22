@@ -34,7 +34,7 @@ This repository contains a **testing script** for evaluating the model's perform
 ## Usage
 
 # Clone the repository
-git clone https://github.com/your-repo/OpenAITranslationModel.git
+git clone (https://github.com/Juan-DP/OpenAITranslationModel.git)
 
 # Navigate to the project folder
 cd OpenAITranslationModel
