@@ -4,8 +4,8 @@ final class OpenAIConnector extends Connector
 {
     public function __construct(String $connectionString = null, String $key = null)
     {
-        $connectionString = $connectionString ?? config(['config']['openAI']['baseURL']);
-        $key              = $key ?? config(['config']['openAI']['apiKey']);
+        $connectionString = $connectionString ?? config('config.openAI.baseURL');
+        $key              = $key ?? config('config.openAI.apiKey');
         parent::__construct($connectionString, $key);
     }
 
