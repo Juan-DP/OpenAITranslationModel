@@ -1,5 +1,7 @@
 # OpenAI Translation Model
-![OpenAI Logo]([https://upload.wikimedia.org/wikipedia/commons/6/6d/OpenAI_Logo_white.svg#gh-light-mode-only](https://en.wikipedia.org/wiki/File:Dall-e_3_(jan_%2724)_artificial_intelligence_icon.png))
+![OpenAI Logo]([https://en.wikipedia.org/wiki/File:Dall-e_3_(jan_%2724)_artificial_intelligence_icon.png])
+
+
 ## Custom Training Setup
 
 When training a custom translation model, having well-structured **context files** is essential. These files streamline the process, helping the model behave more accurately and consistently across different languages.
