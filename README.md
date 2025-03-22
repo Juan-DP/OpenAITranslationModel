@@ -21,6 +21,17 @@ This project is designed to test a custom translation model trained using multil
 
 Additionally, **contextual information** is provided within the training files to enhance the model’s understanding and accuracy.
 
+## Results
+
+Results where given by using gpt-3.5 - where all over the place in **Russian**, **Arabic**, **Japanese** and **Chinese** from 30% to 400% correct
+
+**Spanish**, **Portuguese** and **German** where 80% - 100% correct after correction by professional translators
+
+**French** was in the 40% - 70% mark
+
+## Conclusion 
+
+Given the current state of AI - the cost of training a model can go from 1$ to 5$ and given that new models like gpt-4.5 is out now, results might need to be checked again creating a new custom model with this new versions.
 ## Code Snippet
 
 This repository contains a **testing script** for evaluating the model's performance. The script processes text samples and verifies the model’s translation accuracy across different languages.
@@ -34,10 +45,12 @@ This repository contains a **testing script** for evaluating the model's perform
 ## Usage
 
 # Clone the repository
-git clone (https://github.com/Juan-DP/OpenAITranslationModel.git)
+git clone https://github.com/Juan-DP/OpenAITranslationModel.git
 
 # Navigate to the project folder
 cd OpenAITranslationModel
 
 # Run the test script
 php test_translation
+
+
