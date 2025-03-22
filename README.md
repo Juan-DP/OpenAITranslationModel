@@ -5,6 +5,7 @@
 
 When training a custom translation model, having well-structured **context files** is essential. These files streamline the process, helping the model behave more accurately and consistently across different languages.
 
+Training files are just an example of how to train your model. Example training files located in Training Files
 ## Project Overview
 
 This project is designed to test a custom translation model trained using multilingual sentence pairs. The dataset includes translations in several languages:
