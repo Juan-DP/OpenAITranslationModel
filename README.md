@@ -1,5 +1,5 @@
 # OpenAI Translation Model
-![OpenAI Logo](https://upload.wikimedia.org/wikipedia/commons/c/c9/OpenAI_Logo_%282%29.svg)
+![OpenAI Logo](https://commons.wikimedia.org/wiki/File:OpenAI_Logo_(2).svg#/media/File:OpenAI_Logo_(2).svg)
 
 
 ## Custom Training Setup
